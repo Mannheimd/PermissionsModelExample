@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Claims] (Table)
+       [dbo].[Groups] (Table)
+       [dbo].[Roles] (Table)
+       [dbo].[UserRoleClaims] (Table)
+       [dbo].[FK_GroupRole] (Foreign Key)
+       [dbo].[FK_RoleClaim] (Foreign Key)
+       [dbo].[FK_UserRole] (Foreign Key)
+
+** Supporting actions

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-permissions_tester.Api-76FA76BF-51EC-40C4-8BA3-C102484D5BE4</UserSecretsId>
+    <RootNamespace>permissions_tester.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureADB2C.UI" Version="3.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\permissions-tester.Claims\permissions-tester.Claims.csproj" />
+    <ProjectReference Include="..\permissions-tester.Repository\permissions-tester.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+C:\git-repos\personal\permissions-tester\permissions-tester.Database\bin\Debug\permissions-tester.Database.dacpac
+C:\git-repos\personal\permissions-tester\permissions-tester.Database\bin\Debug\permissions_tester.Database.dll
+C:\git-repos\personal\permissions-tester\permissions-tester.Database\bin\Debug\permissions_tester.Database.pdb
+C:\git-repos\personal\permissions-tester\permissions-tester.Database\obj\Debug\permissions-tester.Database.sqlprojAssemblyReference.cache
+C:\git-repos\personal\permissions-tester\permissions-tester.Database\obj\Debug\permissions_tester.Database.dll
+C:\git-repos\personal\permissions-tester\permissions-tester.Database\obj\Debug\permissions_tester.Database.pdb

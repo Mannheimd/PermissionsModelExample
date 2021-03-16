@@ -1,0 +1,12 @@
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\bin\Debug\netstandard2.0\permissions-tester.Claims.deps.json
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\bin\Debug\netstandard2.0\permissions-tester.Claims.dll
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\bin\Debug\netstandard2.0\permissions-tester.Claims.pdb
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\bin\Debug\netstandard2.0\permissions-tester.Repository.dll
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\bin\Debug\netstandard2.0\permissions-tester.Repository.pdb
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\obj\Debug\netstandard2.0\permissions-tester.Claims.csprojAssemblyReference.cache
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\obj\Debug\netstandard2.0\permissions-tester.Claims.AssemblyInfoInputs.cache
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\obj\Debug\netstandard2.0\permissions-tester.Claims.AssemblyInfo.cs
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\obj\Debug\netstandard2.0\permissions-tester.Claims.csproj.CoreCompileInputs.cache
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\obj\Debug\netstandard2.0\permissions-tester.Claims.csproj.CopyComplete
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\obj\Debug\netstandard2.0\permissions-tester.Claims.dll
+C:\git-repos\personal\permissions-tester\permissions-tester.Claims\obj\Debug\netstandard2.0\permissions-tester.Claims.pdb

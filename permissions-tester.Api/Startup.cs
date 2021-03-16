@@ -1,0 +1,54 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.AzureADB2C.UI;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using permissions_tester.Repository;
+using permissions_tester.Claims;
+
+namespace permissions_tester.Api
+{
+	public class Startup
+	{
+		public Startup(IConfiguration configuration)
+		{
+			Configuration = configuration;
+		}
+
+		public IConfiguration Configuration { get; }
+
+		// This method gets called by the runtime. Use this method to add services to the container.
+		public void ConfigureServices(IServiceCollection services)
+		{
+			services.AddAuthentication(AzureADB2CDefaults.BearerAuthenticationScheme)
+				.AddAzureADB2CBearer(options => Configuration.Bind("AzureAdB2C", options));
+			services.AddControllers();
+			
+			services.AddScoped<IClaimsRepository, ClaimsRepository>();
+			services.AddScoped<IPermissionClaimService, PermissionClaimService>();
+		}
+
+		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+		{
+			if (env.IsDevelopment())
+			{
+				app.UseDeveloperExceptionPage();
+			}
+
+			app.UseHttpsRedirection();
+
+			app.UseRouting();
+
+			app.UseAuthentication();
+			app.UseAuthorization();
+
+			app.UseEndpoints(endpoints =>
+			{
+				endpoints.MapControllers();
+			});
+		}
+	}
+}

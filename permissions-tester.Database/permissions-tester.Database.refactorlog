@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="10722001-73e4-46e5-a672-5d1c5c344dc8" ChangeDateTime="03/15/2021 19:17:00">
+    <Property Name="ElementName" Value="[dbo].[UserRoleClaims].[UserId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserRoleClaims]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserADId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="504c3eb0-f41e-44f6-840d-3d1477df5ca9" ChangeDateTime="03/15/2021 19:17:11">
+    <Property Name="ElementName" Value="[dbo].[UserRoleClaims].[RoleName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserRoleClaims]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RoleId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ebbb0a5b-cd2e-42d3-b468-35b726012ca7" ChangeDateTime="03/15/2021 19:25:41">
+    <Property Name="ElementName" Value="[dbo].[Groups].[GroupName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ADGroupId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="45fad4cb-b239-4fcf-a844-92577b49598b" ChangeDateTime="03/15/2021 20:09:32">
+    <Property Name="ElementName" Value="[dbo].[Groups].[RoleId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RoleName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dbbe5268-6810-4454-8901-4262e56f79bf" ChangeDateTime="03/15/2021 20:19:24">
+    <Property Name="ElementName" Value="[dbo].[UserRoleAssignments].[RoleId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserRoleAssignments]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RoleName" />
+  </Operation>
+</Operations>

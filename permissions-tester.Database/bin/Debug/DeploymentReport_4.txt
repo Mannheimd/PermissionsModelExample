@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Groups]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[Groups].[RoleName] (Column)
+     Drop
+       unnamed constraint on [dbo].[Groups] (Default Constraint)
+       [dbo].[FK_GroupRole] (Foreign Key)
+     Table rebuild
+       [dbo].[Groups] (Table)
+
+** Supporting actions

@@ -1,0 +1,51 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Claims]
+       [dbo].[Groups]
+       [dbo].[Roles]
+       [dbo].[UserRoleAssignments]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Id in table [dbo].[Claims] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT
+         NULL. There is no implicit or explicit conversion.
+       The type for column Id in table [dbo].[Groups] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT
+         NULL. There is no implicit or explicit conversion.
+       The type for column RoleId in table [dbo].[Groups] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER
+         NOT NULL. There is no implicit or explicit conversion.
+       The type for column AllowsClaim in table [dbo].[Roles] is currently  INT NOT NULL but is being changed to 
+         UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+       The type for column Id in table [dbo].[Roles] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT
+         NULL. There is no implicit or explicit conversion.
+       The type for column Id in table [dbo].[UserRoleAssignments] is currently  INT NOT NULL but is being changed to 
+         UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+       The type for column RoleId in table [dbo].[UserRoleAssignments] is currently  INT NOT NULL but is being changed to 
+         UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+
+** User actions
+     Table rebuild
+       [dbo].[Claims] (Table)
+       [dbo].[Groups] (Table)
+       [dbo].[Roles] (Table)
+       [dbo].[UserRoleAssignments] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_RoleClaim] (Foreign Key)
+       [dbo].[FK_GroupRole] (Foreign Key)
+       [dbo].[FK_UserRole] (Foreign Key)
+     Create
+       [dbo].[FK_RoleClaim] (Foreign Key)
+       [dbo].[FK_GroupRole] (Foreign Key)
+       [dbo].[FK_UserRole] (Foreign Key)
+
+The type for column Id in table [dbo].[Claims] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+The type for column Id in table [dbo].[Groups] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+The type for column RoleId in table [dbo].[Groups] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+The type for column AllowsClaim in table [dbo].[Roles] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+The type for column Id in table [dbo].[Roles] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+The type for column Id in table [dbo].[UserRoleAssignments] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+The type for column RoleId in table [dbo].[UserRoleAssignments] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+

@@ -1,0 +1,9 @@
+C:\git-repos\personal\permissions-tester\permissions-tester.Repository\bin\Debug\netstandard2.0\permissions-tester.Repository.deps.json
+C:\git-repos\personal\permissions-tester\permissions-tester.Repository\bin\Debug\netstandard2.0\permissions-tester.Repository.dll
+C:\git-repos\personal\permissions-tester\permissions-tester.Repository\obj\Debug\netstandard2.0\permissions-tester.Repository.csprojAssemblyReference.cache
+C:\git-repos\personal\permissions-tester\permissions-tester.Repository\obj\Debug\netstandard2.0\permissions-tester.Repository.AssemblyInfoInputs.cache
+C:\git-repos\personal\permissions-tester\permissions-tester.Repository\obj\Debug\netstandard2.0\permissions-tester.Repository.AssemblyInfo.cs
+C:\git-repos\personal\permissions-tester\permissions-tester.Repository\bin\Debug\netstandard2.0\permissions-tester.Repository.pdb
+C:\git-repos\personal\permissions-tester\permissions-tester.Repository\obj\Debug\netstandard2.0\permissions-tester.Repository.csproj.CoreCompileInputs.cache
+C:\git-repos\personal\permissions-tester\permissions-tester.Repository\obj\Debug\netstandard2.0\permissions-tester.Repository.dll
+C:\git-repos\personal\permissions-tester\permissions-tester.Repository\obj\Debug\netstandard2.0\permissions-tester.Repository.pdb
